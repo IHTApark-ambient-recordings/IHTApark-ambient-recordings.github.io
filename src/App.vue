@@ -265,7 +265,7 @@
       if( dataPointSelector.value == -1 || dataPointSelector.value != idx )
       {
         const date_day_time_string = "20" + String( date_array[idx] ) + "_" + day_array[idx] + "_" + time_array[idx]
-        const audioPath = "../data/audio/" + date_day_time_string + "/" + date_day_time_string + "_Pos" + String( position_array[idx] ) + "/" + date_day_time_string + "_Pos" + String( position_array[idx] ) + "_1.wav" 
+        const audioPath = "../IHTApark-ambient-recordings/data/audio/" + date_day_time_string + "/" + date_day_time_string + "_Pos" + String( position_array[idx] ) + "/" + date_day_time_string + "_Pos" + String( position_array[idx] ) + "_1.wav" 
         
         playAudio( audioPath );
 
